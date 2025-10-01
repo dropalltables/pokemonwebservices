@@ -1,11 +1,36 @@
 body {
     text-align: center;
     margin: 50px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+
+    footer {
+        color: #999;
+    }
+
+    fieldset {
+        border-color: #666;
+    }
 }
 
 h1 {
     font-size: 4em;
     margin-bottom: 50px;
+}
+
+.scores {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 .result {

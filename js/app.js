@@ -5,6 +5,8 @@ let awsServices = [];
 let allPokemonNames = [];
 let currentItem = {};
 let currentType = '';
+let currentScore = 0;
+let highScore = 0;
 
 // Common AWS terms to filter out
 const awsCommonTerms = [
@@ -52,6 +54,10 @@ async function loadData() {
         moves: pokemonMoves.length,
         total: allPokemonNames.length
     });
+
+    // Load high score from localStorage
+    highScore = parseInt(localStorage.getItem('highScore') || '0', 10);
+    updateScoreDisplay();
 
     nextRound();
 }
@@ -123,15 +129,30 @@ function submitGuess() {
 
     if (correct) {
         fieldset.classList.add('correct');
+        currentScore++;
+
+        // Update high score if necessary
+        if (currentScore > highScore) {
+            highScore = currentScore;
+            localStorage.setItem('highScore', highScore.toString());
+        }
     } else {
         fieldset.classList.add('incorrect');
+        currentScore = 0;
     }
+
+    updateScoreDisplay();
 
     // Wait for animation to finish before loading next round
     setTimeout(() => {
         fieldset.classList.remove('correct', 'incorrect');
         nextRound();
     }, 2000);
+}
+
+function updateScoreDisplay() {
+    document.getElementById('currentScore').textContent = currentScore;
+    document.getElementById('highScore').textContent = highScore;
 }
 
 // Load data when page loads
