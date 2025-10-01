@@ -7,6 +7,8 @@ let currentItem = {};
 let currentType = '';
 let currentScore = 0;
 let highScore = 0;
+let previousHighScore = 0;
+let isProcessing = false;
 
 // Common AWS terms to filter out
 const awsCommonTerms = [
@@ -57,6 +59,7 @@ async function loadData() {
 
     // Load high score from localStorage
     highScore = parseInt(localStorage.getItem('highScore') || '0', 10);
+    previousHighScore = highScore;
     updateScoreDisplay();
 
     nextRound();
@@ -114,11 +117,20 @@ function nextRound() {
 }
 
 function submitGuess() {
+    // Prevent multiple submissions
+    if (isProcessing) {
+        return;
+    }
+
     const selected = document.querySelector('input[name="choice"]:checked');
 
     if (!selected) {
         return;
     }
+
+    isProcessing = true;
+    const submitButton = document.getElementById('submitButton');
+    submitButton.disabled = true;
 
     const guess = selected.value;
     const correct = guess === currentItem.type;
@@ -131,7 +143,12 @@ function submitGuess() {
         fieldset.classList.add('correct');
         currentScore++;
 
-        // Update high score if necessary
+        // Update high score if necessary and trigger confetti on new record
+        if (currentScore > highScore && highScore > 0) {
+            // New high score! Trigger confetti
+            createConfetti();
+        }
+
         if (currentScore > highScore) {
             highScore = currentScore;
             localStorage.setItem('highScore', highScore.toString());
@@ -147,12 +164,39 @@ function submitGuess() {
     setTimeout(() => {
         fieldset.classList.remove('correct', 'incorrect');
         nextRound();
+        isProcessing = false;
+        submitButton.disabled = false;
     }, 2000);
 }
 
 function updateScoreDisplay() {
     document.getElementById('currentScore').textContent = currentScore;
     document.getElementById('highScore').textContent = highScore;
+}
+
+function createConfetti() {
+    const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+    const confettiCount = 100;
+
+    for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+
+        const fallDuration = Math.random() * 2 + 2; // 2-4 seconds to fall
+        const fadeDuration = Math.random() * 2 + 1; // 1-3 seconds to fade
+        const fadeDelay = fallDuration; // Start fading when it hits bottom
+
+        confetti.style.animationDelay = `${Math.random() * 0.5}s, ${fadeDelay}s`;
+        confetti.style.animationDuration = `${fallDuration}s, ${fadeDuration}s`;
+        document.body.appendChild(confetti);
+
+        // Remove confetti after all animations complete
+        setTimeout(() => {
+            confetti.remove();
+        }, (fallDuration + fadeDuration + 0.5) * 1000);
+    }
 }
 
 // Keyboard controls

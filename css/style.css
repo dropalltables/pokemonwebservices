@@ -94,3 +94,27 @@ footer {
 footer p {
     margin: 5px 0;
 }
+
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    top: -10px;
+    z-index: 9999;
+    animation: confettiFall linear forwards, confettiFade linear forwards;
+}
+
+@keyframes confettiFall {
+    to {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+@keyframes confettiFade {
+    0%, 75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
