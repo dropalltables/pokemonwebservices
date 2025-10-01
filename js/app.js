@@ -16,7 +16,8 @@ const awsCommonTerms = [
     'database', 'storage', 'compute', 'network', 'cloud', 'service',
     'management', 'security', 'analytics', 'machine learning', 'container',
     'serverless', 'integration', 'monitoring', 'deployment', 'backup',
-    'migration', 'transfer', 'gateway', 'firewall', 'load balancer'
+    'migration', 'transfer', 'gateway', 'firewall', 'load balancer',
+    'device', 'cluster', 'farm', 'ledger', 'quantum'
 ];
 
 // Load data
@@ -67,47 +68,60 @@ async function loadData() {
 }
 
 function nextRound() {
-    // Randomly choose Pokemon or AWS
-    currentType = Math.random() < 0.5 ? 'pokemon' : 'aws';
+    let attempts = 0;
+    let cleanName = '';
 
-    if (currentType === 'pokemon') {
-        const randomName = allPokemonNames[Math.floor(Math.random() * allPokemonNames.length)];
+    // Keep trying until we get a valid name (not empty after filtering)
+    while (attempts < 100) {
+        // Randomly choose Pokemon or AWS
+        currentType = Math.random() < 0.5 ? 'pokemon' : 'aws';
 
-        // Remove "Poké" and "Poke" (with and without accents) from items
-        let cleanName = randomName
-            .replace(/\bPoké\b/gi, '')
-            .replace(/\bPoke\b/gi, '')
-            .replace(/\bPokémon\b/gi, '')
-            .replace(/\bPokemon\b/gi, '')
-            .replace(/\s+/g, ' ')
-            .trim();
+        if (currentType === 'pokemon') {
+            const randomName = allPokemonNames[Math.floor(Math.random() * allPokemonNames.length)];
 
-        currentItem = {
-            name: cleanName.toLowerCase(),
-            type: 'pokemon'
-        };
-    } else {
-        const randomAws = awsServices[Math.floor(Math.random() * awsServices.length)];
-        // Remove "Amazon " or "AWS " prefix to avoid leaking the answer
-        let cleanName = randomAws.replace(/^Amazon\s+/i, '').replace(/^AWS\s+/i, '');
+            // Remove "Poké" and "Poke" (with and without accents) from items
+            cleanName = randomName
+                .replace(/\bPoké\b/gi, '')
+                .replace(/\bPoke\b/gi, '')
+                .replace(/\bPokémon\b/gi, '')
+                .replace(/\bPokemon\b/gi, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+        } else {
+            const randomAws = awsServices[Math.floor(Math.random() * awsServices.length)];
+            // Remove "Amazon " or "AWS " prefix to avoid leaking the answer
+            cleanName = randomAws.replace(/^Amazon\s+/i, '').replace(/^AWS\s+/i, '');
 
-        // Remove " on AWS" or " for AWS" patterns
-        cleanName = cleanName.replace(/\s+on\s+AWS/gi, '').replace(/\s+for\s+AWS/gi, '');
+            // Remove " on AWS" or " for AWS" patterns
+            cleanName = cleanName.replace(/\s+on\s+AWS/gi, '').replace(/\s+for\s+AWS/gi, '');
 
-        // Remove common AWS terms
-        awsCommonTerms.forEach(term => {
-            const regex = new RegExp('\\b' + term + '\\b', 'gi');
-            cleanName = cleanName.replace(regex, '').trim();
-        });
+            // Remove common AWS terms
+            awsCommonTerms.forEach(term => {
+                const regex = new RegExp('\\b' + term + '\\b', 'gi');
+                cleanName = cleanName.replace(regex, '').trim();
+            });
 
-        // Clean up extra spaces and parentheses
-        cleanName = cleanName.replace(/\s+/g, ' ').replace(/\(\s*\)/g, '').trim();
+            // Clean up extra spaces and parentheses
+            cleanName = cleanName.replace(/\s+/g, ' ').replace(/\(\s*\)/g, '').trim();
+        }
 
-        currentItem = {
-            name: cleanName.toLowerCase(),
-            type: 'aws'
-        };
+        // If we have a valid name (not empty), break out of the loop
+        if (cleanName.length > 0) {
+            break;
+        }
+
+        attempts++;
     }
+
+    // Fallback if everything was filtered out (shouldn't happen, but just in case)
+    if (cleanName.length === 0) {
+        cleanName = 'error';
+    }
+
+    currentItem = {
+        name: cleanName.toLowerCase(),
+        type: currentType
+    };
 
     document.getElementById('pokemonName').textContent = currentItem.name;
 
