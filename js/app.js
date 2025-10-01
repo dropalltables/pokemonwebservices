@@ -9,6 +9,7 @@ let currentScore = 0;
 let highScore = 0;
 let previousHighScore = 0;
 let isProcessing = false;
+let confettiTriggered = false;
 
 // Common AWS terms to filter out
 const awsCommonTerms = [
@@ -143,10 +144,11 @@ function submitGuess() {
         fieldset.classList.add('correct');
         currentScore++;
 
-        // Update high score if necessary and trigger confetti on new record
-        if (currentScore > highScore && highScore > 0) {
+        // Update high score if necessary and trigger confetti on new record (only first time)
+        if (currentScore > highScore && highScore > 0 && !confettiTriggered) {
             // New high score! Trigger confetti
             createConfetti();
+            confettiTriggered = true;
         }
 
         if (currentScore > highScore) {
@@ -156,6 +158,7 @@ function submitGuess() {
     } else {
         fieldset.classList.add('incorrect');
         currentScore = 0;
+        confettiTriggered = false; // Reset confetti flag for next streak
     }
 
     updateScoreDisplay();
