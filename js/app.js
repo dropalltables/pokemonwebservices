@@ -46,6 +46,13 @@ async function loadData() {
         ...pokemonMoves.map(m => m.ename)
     ];
 
+    console.log('Loaded:', {
+        pokemon: pokemonData.length,
+        items: pokemonItems.filter(i => i.name && i.name.english && i.name.english !== 'None').length,
+        moves: pokemonMoves.length,
+        total: allPokemonNames.length
+    });
+
     nextRound();
 }
 
@@ -55,8 +62,18 @@ function nextRound() {
 
     if (currentType === 'pokemon') {
         const randomName = allPokemonNames[Math.floor(Math.random() * allPokemonNames.length)];
+
+        // Remove "Poké" and "Poke" (with and without accents) from items
+        let cleanName = randomName
+            .replace(/\bPoké\b/gi, '')
+            .replace(/\bPoke\b/gi, '')
+            .replace(/\bPokémon\b/gi, '')
+            .replace(/\bPokemon\b/gi, '')
+            .replace(/\s+/g, ' ')
+            .trim();
+
         currentItem = {
-            name: randomName.toLowerCase(),
+            name: cleanName.toLowerCase(),
             type: 'pokemon'
         };
     } else {
@@ -64,14 +81,17 @@ function nextRound() {
         // Remove "Amazon " or "AWS " prefix to avoid leaking the answer
         let cleanName = randomAws.replace(/^Amazon\s+/i, '').replace(/^AWS\s+/i, '');
 
+        // Remove " on AWS" or " for AWS" patterns
+        cleanName = cleanName.replace(/\s+on\s+AWS/gi, '').replace(/\s+for\s+AWS/gi, '');
+
         // Remove common AWS terms
         awsCommonTerms.forEach(term => {
             const regex = new RegExp('\\b' + term + '\\b', 'gi');
             cleanName = cleanName.replace(regex, '').trim();
         });
 
-        // Clean up extra spaces
-        cleanName = cleanName.replace(/\s+/g, ' ').trim();
+        // Clean up extra spaces and parentheses
+        cleanName = cleanName.replace(/\s+/g, ' ').replace(/\(\s*\)/g, '').trim();
 
         currentItem = {
             name: cleanName.toLowerCase(),
