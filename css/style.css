@@ -59,3 +59,13 @@ fieldset.incorrect {
         background-color: transparent;
     }
 }
+
+footer {
+    margin-top: 50px;
+    font-size: 0.8em;
+    color: #666;
+}
+
+footer p {
+    margin: 5px 0;
+}

@@ -1,5 +1,8 @@
 let pokemonData = [];
+let pokemonItems = [];
+let pokemonMoves = [];
 let awsServices = [];
+let allPokemonNames = [];
 let currentItem = {};
 let currentType = '';
 
@@ -16,6 +19,12 @@ async function loadData() {
     const pokemonResponse = await fetch('data/pokedex.json');
     pokemonData = await pokemonResponse.json();
 
+    const itemsResponse = await fetch('data/items.json');
+    pokemonItems = await itemsResponse.json();
+
+    const movesResponse = await fetch('data/moves.json');
+    pokemonMoves = await movesResponse.json();
+
     const awsResponse = await fetch('data/aws_services.json');
     const awsData = await awsResponse.json();
 
@@ -30,6 +39,13 @@ async function loadData() {
         }
     }
 
+    // Combine all Pokemon names from different sources
+    allPokemonNames = [
+        ...pokemonData.map(p => p.name.english),
+        ...pokemonItems.filter(i => i.name && i.name.english && i.name.english !== 'None').map(i => i.name.english),
+        ...pokemonMoves.map(m => m.ename)
+    ];
+
     nextRound();
 }
 
@@ -38,9 +54,9 @@ function nextRound() {
     currentType = Math.random() < 0.5 ? 'pokemon' : 'aws';
 
     if (currentType === 'pokemon') {
-        const randomPokemon = pokemonData[Math.floor(Math.random() * pokemonData.length)];
+        const randomName = allPokemonNames[Math.floor(Math.random() * allPokemonNames.length)];
         currentItem = {
-            name: randomPokemon.name.english.toLowerCase(),
+            name: randomName.toLowerCase(),
             type: 'pokemon'
         };
     } else {
