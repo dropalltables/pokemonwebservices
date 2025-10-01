@@ -155,5 +155,16 @@ function updateScoreDisplay() {
     document.getElementById('highScore').textContent = highScore;
 }
 
+// Keyboard controls
+document.addEventListener('keydown', (e) => {
+    if (e.key === '1') {
+        document.getElementById('aws').checked = true;
+    } else if (e.key === '2') {
+        document.getElementById('pokemon').checked = true;
+    } else if (e.key === 'Enter') {
+        submitGuess();
+    }
+});
+
 // Load data when page loads
 loadData();
