@@ -1,0 +1,1343 @@
+{
+  "metadata": {
+    "title": "Complete AWS Services List",
+    "description": "Comprehensive list of Amazon Web Services organized by category",
+    "generated_date": "2025-10-01",
+    "total_services": "200+",
+    "note": "AWS offers over 200 cloud services. This list includes major services across all categories."
+  },
+  "services_by_category": {
+    "AI_and_Machine_Learning": [
+      {
+        "name": "Amazon Bedrock",
+        "description": "Build and scale generative AI applications",
+        "url": "https://aws.amazon.com/bedrock/"
+      },
+      {
+        "name": "Amazon Bedrock AgentCore",
+        "description": "Platform for building and scaling AI agents with enterprise-grade security",
+        "url": "https://aws.amazon.com/bedrock/"
+      },
+      {
+        "name": "Amazon SageMaker",
+        "description": "Build, train, and deploy machine learning models",
+        "url": "https://aws.amazon.com/sagemaker/"
+      },
+      {
+        "name": "Amazon SageMaker Data Wrangler",
+        "description": "Prepare data for machine learning",
+        "url": "https://aws.amazon.com/sagemaker/data-wrangler/"
+      },
+      {
+        "name": "Amazon Comprehend",
+        "description": "Natural language processing service",
+        "url": "https://aws.amazon.com/comprehend/"
+      },
+      {
+        "name": "Amazon Rekognition",
+        "description": "Image and video analysis",
+        "url": "https://aws.amazon.com/rekognition/"
+      },
+      {
+        "name": "Amazon Textract",
+        "description": "Extract text and data from documents",
+        "url": "https://aws.amazon.com/textract/"
+      },
+      {
+        "name": "Amazon Polly",
+        "description": "Text-to-speech service",
+        "url": "https://aws.amazon.com/polly/"
+      },
+      {
+        "name": "Amazon Transcribe",
+        "description": "Automatic speech recognition",
+        "url": "https://aws.amazon.com/transcribe/"
+      },
+      {
+        "name": "Amazon Translate",
+        "description": "Neural machine translation",
+        "url": "https://aws.amazon.com/translate/"
+      },
+      {
+        "name": "Amazon Lex",
+        "description": "Build conversational interfaces",
+        "url": "https://aws.amazon.com/lex/"
+      },
+      {
+        "name": "Amazon Personalize",
+        "description": "Create real-time personalized recommendations",
+        "url": "https://aws.amazon.com/personalize/"
+      },
+      {
+        "name": "Amazon Forecast",
+        "description": "Accurate time-series forecasting",
+        "url": "https://aws.amazon.com/forecast/"
+      },
+      {
+        "name": "Amazon Kendra",
+        "description": "Intelligent enterprise search",
+        "url": "https://aws.amazon.com/kendra/"
+      },
+      {
+        "name": "Amazon CodeWhisperer",
+        "description": "AI-powered code suggestions",
+        "url": "https://aws.amazon.com/codewhisperer/"
+      },
+      {
+        "name": "Amazon Q Developer",
+        "description": "AI assistant for developers",
+        "url": "https://aws.amazon.com/q/"
+      },
+      {
+        "name": "AWS Deep Learning AMIs",
+        "description": "Pre-configured environments for deep learning",
+        "url": "https://aws.amazon.com/machine-learning/amis/"
+      },
+      {
+        "name": "AWS Deep Learning Containers",
+        "description": "Docker images for deep learning",
+        "url": "https://aws.amazon.com/machine-learning/containers/"
+      },
+      {
+        "name": "AWS Inferentia",
+        "description": "Machine learning inference chip",
+        "url": "https://aws.amazon.com/machine-learning/inferentia/"
+      },
+      {
+        "name": "AWS Trainium",
+        "description": "Machine learning training chip",
+        "url": "https://aws.amazon.com/machine-learning/trainium/"
+      },
+      {
+        "name": "Amazon Monitron",
+        "description": "End-to-end system for equipment monitoring",
+        "url": "https://aws.amazon.com/monitron/"
+      },
+      {
+        "name": "Amazon Lookout for Equipment",
+        "description": "Detect abnormal equipment behavior",
+        "url": "https://aws.amazon.com/lookout-for-equipment/"
+      },
+      {
+        "name": "Amazon Lookout for Vision",
+        "description": "Spot product defects using computer vision",
+        "url": "https://aws.amazon.com/lookout-for-vision/"
+      },
+      {
+        "name": "Amazon Lookout for Metrics",
+        "description": "Automatically detect anomalies in metrics",
+        "url": "https://aws.amazon.com/lookout-for-metrics/"
+      },
+      {
+        "name": "Amazon DevOps Guru",
+        "description": "ML-powered cloud operations service",
+        "url": "https://aws.amazon.com/devops-guru/"
+      },
+      {
+        "name": "Amazon Fraud Detector",
+        "description": "Detect online fraud",
+        "url": "https://aws.amazon.com/fraud-detector/"
+      },
+      {
+        "name": "Amazon CodeGuru",
+        "description": "Automated code reviews and performance recommendations",
+        "url": "https://aws.amazon.com/codeguru/"
+      },
+      {
+        "name": "Amazon HealthLake",
+        "description": "Store, transform, and analyze health data",
+        "url": "https://aws.amazon.com/healthlake/"
+      }
+    ],
+    "Analytics": [
+      {
+        "name": "Amazon Athena",
+        "description": "Query data in S3 using SQL",
+        "url": "https://aws.amazon.com/athena/"
+      },
+      {
+        "name": "Amazon EMR",
+        "description": "Managed Hadoop framework",
+        "url": "https://aws.amazon.com/emr/"
+      },
+      {
+        "name": "Amazon CloudSearch",
+        "description": "Managed search service",
+        "url": "https://aws.amazon.com/cloudsearch/"
+      },
+      {
+        "name": "Amazon OpenSearch Service",
+        "description": "Search and analyze data at scale",
+        "url": "https://aws.amazon.com/opensearch-service/"
+      },
+      {
+        "name": "Amazon Kinesis",
+        "description": "Real-time data streaming",
+        "url": "https://aws.amazon.com/kinesis/"
+      },
+      {
+        "name": "Amazon Kinesis Data Streams",
+        "description": "Capture and store data streams",
+        "url": "https://aws.amazon.com/kinesis/data-streams/"
+      },
+      {
+        "name": "Amazon Kinesis Data Firehose",
+        "description": "Load streaming data into data stores",
+        "url": "https://aws.amazon.com/kinesis/data-firehose/"
+      },
+      {
+        "name": "Amazon Kinesis Data Analytics",
+        "description": "Analyze streaming data in real-time",
+        "url": "https://aws.amazon.com/kinesis/data-analytics/"
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "description": "Capture and stream video",
+        "url": "https://aws.amazon.com/kinesis/video-streams/"
+      },
+      {
+        "name": "Amazon Redshift",
+        "description": "Fast, simple, cost-effective data warehousing",
+        "url": "https://aws.amazon.com/redshift/"
+      },
+      {
+        "name": "Amazon QuickSight",
+        "description": "Business intelligence service",
+        "url": "https://aws.amazon.com/quicksight/"
+      },
+      {
+        "name": "AWS Data Pipeline",
+        "description": "Orchestration for data-driven workflows",
+        "url": "https://aws.amazon.com/datapipeline/"
+      },
+      {
+        "name": "AWS Glue",
+        "description": "Serverless data integration service",
+        "url": "https://aws.amazon.com/glue/"
+      },
+      {
+        "name": "AWS Lake Formation",
+        "description": "Build, secure, and manage data lakes",
+        "url": "https://aws.amazon.com/lake-formation/"
+      },
+      {
+        "name": "Amazon Managed Streaming for Apache Kafka (MSK)",
+        "description": "Fully managed Apache Kafka service",
+        "url": "https://aws.amazon.com/msk/"
+      },
+      {
+        "name": "AWS Data Exchange",
+        "description": "Find, subscribe to, and use third-party data",
+        "url": "https://aws.amazon.com/data-exchange/"
+      },
+      {
+        "name": "Amazon FinSpace",
+        "description": "Data management and analytics for financial services",
+        "url": "https://aws.amazon.com/finspace/"
+      },
+      {
+        "name": "AWS Clean Rooms",
+        "description": "Analyze collective datasets without sharing data",
+        "url": "https://aws.amazon.com/clean-rooms/"
+      }
+    ],
+    "Application_Integration": [
+      {
+        "name": "Amazon EventBridge",
+        "description": "Serverless event bus service",
+        "url": "https://aws.amazon.com/eventbridge/"
+      },
+      {
+        "name": "Amazon MQ",
+        "description": "Managed message broker service",
+        "url": "https://aws.amazon.com/amazon-mq/"
+      },
+      {
+        "name": "Amazon Simple Notification Service (SNS)",
+        "description": "Pub/sub messaging service",
+        "url": "https://aws.amazon.com/sns/"
+      },
+      {
+        "name": "Amazon Simple Queue Service (SQS)",
+        "description": "Message queuing service",
+        "url": "https://aws.amazon.com/sqs/"
+      },
+      {
+        "name": "AWS AppSync",
+        "description": "GraphQL API service",
+        "url": "https://aws.amazon.com/appsync/"
+      },
+      {
+        "name": "AWS Step Functions",
+        "description": "Coordinate distributed applications",
+        "url": "https://aws.amazon.com/step-functions/"
+      }
+    ],
+    "Blockchain": [
+      {
+        "name": "Amazon Managed Blockchain",
+        "description": "Create and manage blockchain networks",
+        "url": "https://aws.amazon.com/managed-blockchain/"
+      },
+      {
+        "name": "Amazon Quantum Ledger Database (QLDB)",
+        "description": "Fully managed ledger database",
+        "url": "https://aws.amazon.com/qldb/"
+      }
+    ],
+    "Business_Applications": [
+      {
+        "name": "Amazon Connect",
+        "description": "Cloud contact center service",
+        "url": "https://aws.amazon.com/connect/"
+      },
+      {
+        "name": "Amazon Chime",
+        "description": "Communications service",
+        "url": "https://aws.amazon.com/chime/"
+      },
+      {
+        "name": "Amazon Honeycode",
+        "description": "Build apps without programming",
+        "url": "https://aws.amazon.com/honeycode/"
+      },
+      {
+        "name": "Amazon WorkMail",
+        "description": "Secure email and calendaring",
+        "url": "https://aws.amazon.com/workmail/"
+      },
+      {
+        "name": "Amazon WorkDocs",
+        "description": "Secure document storage and sharing",
+        "url": "https://aws.amazon.com/workdocs/"
+      },
+      {
+        "name": "Amazon Pinpoint",
+        "description": "Multichannel marketing communications",
+        "url": "https://aws.amazon.com/pinpoint/"
+      },
+      {
+        "name": "Amazon Simple Email Service (SES)",
+        "description": "Email sending and receiving service",
+        "url": "https://aws.amazon.com/ses/"
+      },
+      {
+        "name": "AWS Wickr",
+        "description": "Secure communications",
+        "url": "https://aws.amazon.com/wickr/"
+      }
+    ],
+    "Cloud_Financial_Management": [
+      {
+        "name": "AWS Cost Explorer",
+        "description": "Analyze and manage AWS costs",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-explorer/"
+      },
+      {
+        "name": "AWS Budgets",
+        "description": "Set custom cost and usage budgets",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-budgets/"
+      },
+      {
+        "name": "AWS Cost and Usage Report",
+        "description": "Comprehensive cost and usage information",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/"
+      },
+      {
+        "name": "Reserved Instance Reporting",
+        "description": "Track Reserved Instance utilization",
+        "url": "https://aws.amazon.com/aws-cost-management/reserved-instance-reporting/"
+      },
+      {
+        "name": "Savings Plans",
+        "description": "Flexible pricing model",
+        "url": "https://aws.amazon.com/savingsplans/"
+      },
+      {
+        "name": "AWS Application Cost Profiler",
+        "description": "Track cost of shared AWS resources",
+        "url": "https://aws.amazon.com/aws-cost-management/aws-application-cost-profiler/"
+      }
+    ],
+    "Compute": [
+      {
+        "name": "Amazon EC2",
+        "description": "Virtual servers in the cloud",
+        "url": "https://aws.amazon.com/ec2/"
+      },
+      {
+        "name": "Amazon EC2 Auto Scaling",
+        "description": "Scale EC2 capacity",
+        "url": "https://aws.amazon.com/ec2/autoscaling/"
+      },
+      {
+        "name": "Amazon Lightsail",
+        "description": "Virtual private servers",
+        "url": "https://aws.amazon.com/lightsail/"
+      },
+      {
+        "name": "AWS App Runner",
+        "description": "Build and run containerized web apps",
+        "url": "https://aws.amazon.com/apprunner/"
+      },
+      {
+        "name": "AWS Batch",
+        "description": "Run batch computing jobs",
+        "url": "https://aws.amazon.com/batch/"
+      },
+      {
+        "name": "AWS Elastic Beanstalk",
+        "description": "Deploy and scale web applications",
+        "url": "https://aws.amazon.com/elasticbeanstalk/"
+      },
+      {
+        "name": "AWS Lambda",
+        "description": "Run code without servers",
+        "url": "https://aws.amazon.com/lambda/"
+      },
+      {
+        "name": "AWS Outposts",
+        "description": "Run AWS infrastructure on-premises",
+        "url": "https://aws.amazon.com/outposts/"
+      },
+      {
+        "name": "AWS Serverless Application Repository",
+        "description": "Discover and deploy serverless applications",
+        "url": "https://aws.amazon.com/serverless/serverlessrepo/"
+      },
+      {
+        "name": "AWS Wavelength",
+        "description": "Ultra-low latency applications for 5G",
+        "url": "https://aws.amazon.com/wavelength/"
+      },
+      {
+        "name": "VMware Cloud on AWS",
+        "description": "Build hybrid cloud",
+        "url": "https://aws.amazon.com/vmware/"
+      },
+      {
+        "name": "Amazon Elastic VMware Service (EVS)",
+        "description": "Run VMware workloads on AWS",
+        "url": "https://aws.amazon.com/evs/"
+      },
+      {
+        "name": "AWS Local Zones",
+        "description": "Run latency-sensitive applications closer to users",
+        "url": "https://aws.amazon.com/about-aws/global-infrastructure/localzones/"
+      },
+      {
+        "name": "AWS Graviton",
+        "description": "ARM-based processors for cloud workloads",
+        "url": "https://aws.amazon.com/ec2/graviton/"
+      }
+    ],
+    "Containers": [
+      {
+        "name": "Amazon Elastic Container Registry (ECR)",
+        "description": "Store and manage container images",
+        "url": "https://aws.amazon.com/ecr/"
+      },
+      {
+        "name": "Amazon Elastic Container Service (ECS)",
+        "description": "Run containerized applications",
+        "url": "https://aws.amazon.com/ecs/"
+      },
+      {
+        "name": "Amazon Elastic Kubernetes Service (EKS)",
+        "description": "Managed Kubernetes service",
+        "url": "https://aws.amazon.com/eks/"
+      },
+      {
+        "name": "AWS Fargate",
+        "description": "Serverless compute for containers",
+        "url": "https://aws.amazon.com/fargate/"
+      },
+      {
+        "name": "AWS App2Container",
+        "description": "Containerize existing applications",
+        "url": "https://aws.amazon.com/app2container/"
+      },
+      {
+        "name": "AWS Copilot",
+        "description": "Deploy containerized applications",
+        "url": "https://aws.amazon.com/containers/copilot/"
+      },
+      {
+        "name": "Red Hat OpenShift Service on AWS",
+        "description": "Managed OpenShift service",
+        "url": "https://aws.amazon.com/rosa/"
+      }
+    ],
+    "Customer_Engagement": [
+      {
+        "name": "Amazon Connect",
+        "description": "Cloud contact center",
+        "url": "https://aws.amazon.com/connect/"
+      },
+      {
+        "name": "Amazon Pinpoint",
+        "description": "Multichannel marketing",
+        "url": "https://aws.amazon.com/pinpoint/"
+      },
+      {
+        "name": "Amazon Simple Email Service (SES)",
+        "description": "Email service",
+        "url": "https://aws.amazon.com/ses/"
+      }
+    ],
+    "Database": [
+      {
+        "name": "Amazon Aurora",
+        "description": "MySQL and PostgreSQL-compatible relational database",
+        "url": "https://aws.amazon.com/rds/aurora/"
+      },
+      {
+        "name": "Amazon RDS",
+        "description": "Managed relational database service",
+        "url": "https://aws.amazon.com/rds/"
+      },
+      {
+        "name": "Amazon DynamoDB",
+        "description": "Managed NoSQL database",
+        "url": "https://aws.amazon.com/dynamodb/"
+      },
+      {
+        "name": "Amazon ElastiCache",
+        "description": "In-memory caching service",
+        "url": "https://aws.amazon.com/elasticache/"
+      },
+      {
+        "name": "Amazon MemoryDB for Redis",
+        "description": "Redis-compatible, durable in-memory database",
+        "url": "https://aws.amazon.com/memorydb/"
+      },
+      {
+        "name": "Amazon Neptune",
+        "description": "Graph database service",
+        "url": "https://aws.amazon.com/neptune/"
+      },
+      {
+        "name": "Amazon Timestream",
+        "description": "Time series database",
+        "url": "https://aws.amazon.com/timestream/"
+      },
+      {
+        "name": "Amazon Keyspaces",
+        "description": "Managed Apache Cassandra service",
+        "url": "https://aws.amazon.com/keyspaces/"
+      },
+      {
+        "name": "Amazon DocumentDB",
+        "description": "MongoDB-compatible document database",
+        "url": "https://aws.amazon.com/documentdb/"
+      },
+      {
+        "name": "Amazon DocumentDB Serverless",
+        "description": "Serverless MongoDB-compatible database",
+        "url": "https://aws.amazon.com/documentdb/"
+      },
+      {
+        "name": "Amazon Quantum Ledger Database (QLDB)",
+        "description": "Ledger database",
+        "url": "https://aws.amazon.com/qldb/"
+      },
+      {
+        "name": "AWS Database Migration Service",
+        "description": "Migrate databases to AWS",
+        "url": "https://aws.amazon.com/dms/"
+      }
+    ],
+    "Developer_Tools": [
+      {
+        "name": "AWS Cloud9",
+        "description": "Cloud IDE",
+        "url": "https://aws.amazon.com/cloud9/"
+      },
+      {
+        "name": "AWS CloudShell",
+        "description": "Browser-based shell",
+        "url": "https://aws.amazon.com/cloudshell/"
+      },
+      {
+        "name": "AWS CodeArtifact",
+        "description": "Artifact repository",
+        "url": "https://aws.amazon.com/codeartifact/"
+      },
+      {
+        "name": "AWS CodeBuild",
+        "description": "Build and test code",
+        "url": "https://aws.amazon.com/codebuild/"
+      },
+      {
+        "name": "AWS CodeCommit",
+        "description": "Private Git repositories",
+        "url": "https://aws.amazon.com/codecommit/"
+      },
+      {
+        "name": "AWS CodeDeploy",
+        "description": "Automate code deployments",
+        "url": "https://aws.amazon.com/codedeploy/"
+      },
+      {
+        "name": "AWS CodePipeline",
+        "description": "Release pipelines",
+        "url": "https://aws.amazon.com/codepipeline/"
+      },
+      {
+        "name": "AWS CodeStar",
+        "description": "Develop and deploy applications",
+        "url": "https://aws.amazon.com/codestar/"
+      },
+      {
+        "name": "AWS X-Ray",
+        "description": "Analyze and debug applications",
+        "url": "https://aws.amazon.com/xray/"
+      },
+      {
+        "name": "AWS Command Line Interface (CLI)",
+        "description": "Unified tool to manage AWS services",
+        "url": "https://aws.amazon.com/cli/"
+      },
+      {
+        "name": "AWS Tools and SDKs",
+        "description": "Software development kits",
+        "url": "https://aws.amazon.com/tools/"
+      },
+      {
+        "name": "AWS CodeGuru",
+        "description": "Automated code reviews",
+        "url": "https://aws.amazon.com/codeguru/"
+      },
+      {
+        "name": "AWS Cloud Development Kit (CDK)",
+        "description": "Define cloud infrastructure using code",
+        "url": "https://aws.amazon.com/cdk/"
+      },
+      {
+        "name": "AWS Amplify",
+        "description": "Build and deploy web and mobile apps",
+        "url": "https://aws.amazon.com/amplify/"
+      },
+      {
+        "name": "AWS Application Composer",
+        "description": "Visually design and build serverless applications",
+        "url": "https://aws.amazon.com/application-composer/"
+      },
+      {
+        "name": "AWS Fault Injection Service",
+        "description": "Test application resilience",
+        "url": "https://aws.amazon.com/fis/"
+      }
+    ],
+    "End_User_Computing": [
+      {
+        "name": "Amazon WorkSpaces",
+        "description": "Virtual desktops",
+        "url": "https://aws.amazon.com/workspaces/"
+      },
+      {
+        "name": "Amazon AppStream 2.0",
+        "description": "Stream desktop applications",
+        "url": "https://aws.amazon.com/appstream2/"
+      },
+      {
+        "name": "Amazon WorkSpaces Web",
+        "description": "Secure browser service",
+        "url": "https://aws.amazon.com/workspaces/web/"
+      },
+      {
+        "name": "Amazon WorkLink",
+        "description": "Mobile access to internal websites",
+        "url": "https://aws.amazon.com/worklink/"
+      }
+    ],
+    "Frontend_Web_Mobile": [
+      {
+        "name": "AWS Amplify",
+        "description": "Build full-stack web and mobile apps",
+        "url": "https://aws.amazon.com/amplify/"
+      },
+      {
+        "name": "Amazon API Gateway",
+        "description": "Create, publish, and manage APIs",
+        "url": "https://aws.amazon.com/api-gateway/"
+      },
+      {
+        "name": "Amazon Location Service",
+        "description": "Add location data to applications",
+        "url": "https://aws.amazon.com/location/"
+      },
+      {
+        "name": "AWS AppSync",
+        "description": "Build GraphQL and Pub/Sub APIs",
+        "url": "https://aws.amazon.com/appsync/"
+      },
+      {
+        "name": "AWS Device Farm",
+        "description": "Test mobile apps on real devices",
+        "url": "https://aws.amazon.com/device-farm/"
+      }
+    ],
+    "Game_Tech": [
+      {
+        "name": "Amazon GameLift",
+        "description": "Deploy and scale multiplayer game servers",
+        "url": "https://aws.amazon.com/gamelift/"
+      },
+      {
+        "name": "Amazon Lumberyard",
+        "description": "Free cross-platform game engine",
+        "url": "https://aws.amazon.com/lumberyard/"
+      }
+    ],
+    "Internet_of_Things": [
+      {
+        "name": "AWS IoT Core",
+        "description": "Connect devices to the cloud",
+        "url": "https://aws.amazon.com/iot-core/"
+      },
+      {
+        "name": "AWS IoT Greengrass",
+        "description": "Local compute and messaging for IoT devices",
+        "url": "https://aws.amazon.com/greengrass/"
+      },
+      {
+        "name": "AWS IoT 1-Click",
+        "description": "One-click IoT device setup",
+        "url": "https://aws.amazon.com/iot-1-click/"
+      },
+      {
+        "name": "AWS IoT Analytics",
+        "description": "Analytics for IoT devices",
+        "url": "https://aws.amazon.com/iot-analytics/"
+      },
+      {
+        "name": "AWS IoT Button",
+        "description": "Cloud programmable button",
+        "url": "https://aws.amazon.com/iotbutton/"
+      },
+      {
+        "name": "AWS IoT Device Defender",
+        "description": "Security management for IoT",
+        "url": "https://aws.amazon.com/iot-device-defender/"
+      },
+      {
+        "name": "AWS IoT Device Management",
+        "description": "Onboard, organize, and manage IoT devices",
+        "url": "https://aws.amazon.com/iot-device-management/"
+      },
+      {
+        "name": "AWS IoT Events",
+        "description": "IoT event detection and response",
+        "url": "https://aws.amazon.com/iot-events/"
+      },
+      {
+        "name": "AWS IoT SiteWise",
+        "description": "Collect and organize industrial data",
+        "url": "https://aws.amazon.com/iot-sitewise/"
+      },
+      {
+        "name": "AWS IoT TwinMaker",
+        "description": "Create digital twins",
+        "url": "https://aws.amazon.com/iot-twinmaker/"
+      },
+      {
+        "name": "AWS IoT FleetWise",
+        "description": "Collect and transfer vehicle data",
+        "url": "https://aws.amazon.com/iot-fleetwise/"
+      },
+      {
+        "name": "FreeRTOS",
+        "description": "Real-time OS for microcontrollers",
+        "url": "https://aws.amazon.com/freertos/"
+      }
+    ],
+    "Management_Governance": [
+      {
+        "name": "AWS CloudFormation",
+        "description": "Create and manage resources with templates",
+        "url": "https://aws.amazon.com/cloudformation/"
+      },
+      {
+        "name": "AWS CloudTrail",
+        "description": "Track user activity and API usage",
+        "url": "https://aws.amazon.com/cloudtrail/"
+      },
+      {
+        "name": "Amazon CloudWatch",
+        "description": "Monitor resources and applications",
+        "url": "https://aws.amazon.com/cloudwatch/"
+      },
+      {
+        "name": "AWS Config",
+        "description": "Track resource inventory and changes",
+        "url": "https://aws.amazon.com/config/"
+      },
+      {
+        "name": "AWS Control Tower",
+        "description": "Set up and govern multi-account environment",
+        "url": "https://aws.amazon.com/controltower/"
+      },
+      {
+        "name": "AWS Organizations",
+        "description": "Central governance and management",
+        "url": "https://aws.amazon.com/organizations/"
+      },
+      {
+        "name": "AWS Service Catalog",
+        "description": "Create and use standardized products",
+        "url": "https://aws.amazon.com/servicecatalog/"
+      },
+      {
+        "name": "AWS Systems Manager",
+        "description": "Gain operational insights",
+        "url": "https://aws.amazon.com/systems-manager/"
+      },
+      {
+        "name": "AWS Trusted Advisor",
+        "description": "Optimize performance and security",
+        "url": "https://aws.amazon.com/premiumsupport/technology/trusted-advisor/"
+      },
+      {
+        "name": "AWS Personal Health Dashboard",
+        "description": "View AWS service health",
+        "url": "https://aws.amazon.com/premiumsupport/technology/personal-health-dashboard/"
+      },
+      {
+        "name": "AWS Managed Services",
+        "description": "Infrastructure operations management",
+        "url": "https://aws.amazon.com/managed-services/"
+      },
+      {
+        "name": "AWS License Manager",
+        "description": "Track and manage software licenses",
+        "url": "https://aws.amazon.com/license-manager/"
+      },
+      {
+        "name": "AWS Well-Architected Tool",
+        "description": "Review workload architecture",
+        "url": "https://aws.amazon.com/well-architected-tool/"
+      },
+      {
+        "name": "AWS Compute Optimizer",
+        "description": "Identify optimal AWS resources",
+        "url": "https://aws.amazon.com/compute-optimizer/"
+      },
+      {
+        "name": "AWS Management Console",
+        "description": "Web-based user interface",
+        "url": "https://aws.amazon.com/console/"
+      },
+      {
+        "name": "AWS Console Mobile Application",
+        "description": "Manage resources on mobile",
+        "url": "https://aws.amazon.com/console/mobile/"
+      },
+      {
+        "name": "Amazon Managed Grafana",
+        "description": "Managed Grafana service",
+        "url": "https://aws.amazon.com/grafana/"
+      },
+      {
+        "name": "Amazon Managed Service for Prometheus",
+        "description": "Managed Prometheus monitoring",
+        "url": "https://aws.amazon.com/prometheus/"
+      },
+      {
+        "name": "AWS Launch Wizard",
+        "description": "Size and deploy AWS resources",
+        "url": "https://aws.amazon.com/launchwizard/"
+      },
+      {
+        "name": "AWS OpsWorks",
+        "description": "Automate operations with Chef and Puppet",
+        "url": "https://aws.amazon.com/opsworks/"
+      },
+      {
+        "name": "AWS Proton",
+        "description": "Automated infrastructure provisioning",
+        "url": "https://aws.amazon.com/proton/"
+      },
+      {
+        "name": "AWS Resilience Hub",
+        "description": "Prepare and protect applications",
+        "url": "https://aws.amazon.com/resilience-hub/"
+      },
+      {
+        "name": "AWS Resource Groups & Tag Editor",
+        "description": "Organize and manage AWS resources",
+        "url": "https://aws.amazon.com/resource-groups/"
+      },
+      {
+        "name": "AWS Service Management Connector",
+        "description": "Provision and manage AWS resources",
+        "url": "https://aws.amazon.com/service-management-connector/"
+      }
+    ],
+    "Media_Services": [
+      {
+        "name": "Amazon Elastic Transcoder",
+        "description": "Media transcoding in the cloud",
+        "url": "https://aws.amazon.com/elastictranscoder/"
+      },
+      {
+        "name": "Amazon Kinesis Video Streams",
+        "description": "Process video streams",
+        "url": "https://aws.amazon.com/kinesis/video-streams/"
+      },
+      {
+        "name": "AWS Elemental MediaConnect",
+        "description": "Reliable live video transport",
+        "url": "https://aws.amazon.com/mediaconnect/"
+      },
+      {
+        "name": "AWS Elemental MediaConvert",
+        "description": "File-based video transcoding",
+        "url": "https://aws.amazon.com/mediaconvert/"
+      },
+      {
+        "name": "AWS Elemental MediaLive",
+        "description": "Live video processing",
+        "url": "https://aws.amazon.com/medialive/"
+      },
+      {
+        "name": "AWS Elemental MediaPackage",
+        "description": "Video origination and packaging",
+        "url": "https://aws.amazon.com/mediapackage/"
+      },
+      {
+        "name": "AWS Elemental MediaStore",
+        "description": "Media storage and delivery",
+        "url": "https://aws.amazon.com/mediastore/"
+      },
+      {
+        "name": "AWS Elemental MediaTailor",
+        "description": "Video personalization and monetization",
+        "url": "https://aws.amazon.com/mediatailor/"
+      },
+      {
+        "name": "Amazon Interactive Video Service",
+        "description": "Managed live video solution",
+        "url": "https://aws.amazon.com/ivs/"
+      },
+      {
+        "name": "AWS Elemental Appliances & Software",
+        "description": "On-premises media solutions",
+        "url": "https://aws.amazon.com/elemental-appliances-software/"
+      },
+      {
+        "name": "Amazon Nimble Studio",
+        "description": "Digital content creation in the cloud",
+        "url": "https://aws.amazon.com/nimble-studio/"
+      }
+    ],
+    "Migration_Transfer": [
+      {
+        "name": "AWS Migration Hub",
+        "description": "Track migrations",
+        "url": "https://aws.amazon.com/migration-hub/"
+      },
+      {
+        "name": "AWS Application Discovery Service",
+        "description": "Discover on-premises applications",
+        "url": "https://aws.amazon.com/application-discovery/"
+      },
+      {
+        "name": "AWS Application Migration Service",
+        "description": "Migrate applications to AWS",
+        "url": "https://aws.amazon.com/application-migration-service/"
+      },
+      {
+        "name": "AWS Database Migration Service",
+        "description": "Migrate databases",
+        "url": "https://aws.amazon.com/dms/"
+      },
+      {
+        "name": "AWS DataSync",
+        "description": "Transfer data to AWS",
+        "url": "https://aws.amazon.com/datasync/"
+      },
+      {
+        "name": "AWS Transfer Family",
+        "description": "SFTP, FTPS, and FTP file transfers",
+        "url": "https://aws.amazon.com/aws-transfer-family/"
+      },
+      {
+        "name": "AWS Snow Family",
+        "description": "Physical devices for data migration",
+        "url": "https://aws.amazon.com/snow/"
+      },
+      {
+        "name": "AWS Snowball",
+        "description": "Petabyte-scale data transport",
+        "url": "https://aws.amazon.com/snowball/"
+      },
+      {
+        "name": "AWS Snowcone",
+        "description": "Small, rugged edge computing and data transfer",
+        "url": "https://aws.amazon.com/snowcone/"
+      },
+      {
+        "name": "AWS Snowmobile",
+        "description": "Exabyte-scale data transfer",
+        "url": "https://aws.amazon.com/snowmobile/"
+      },
+      {
+        "name": "AWS Mainframe Modernization",
+        "description": "Migrate mainframe applications",
+        "url": "https://aws.amazon.com/mainframe-modernization/"
+      }
+    ],
+    "Networking_Content_Delivery": [
+      {
+        "name": "Amazon VPC",
+        "description": "Isolated cloud resources",
+        "url": "https://aws.amazon.com/vpc/"
+      },
+      {
+        "name": "Amazon CloudFront",
+        "description": "Global content delivery network",
+        "url": "https://aws.amazon.com/cloudfront/"
+      },
+      {
+        "name": "Amazon Route 53",
+        "description": "Scalable DNS and domain registration",
+        "url": "https://aws.amazon.com/route53/"
+      },
+      {
+        "name": "AWS Direct Connect",
+        "description": "Dedicated network connection to AWS",
+        "url": "https://aws.amazon.com/directconnect/"
+      },
+      {
+        "name": "AWS Global Accelerator",
+        "description": "Improve global application availability",
+        "url": "https://aws.amazon.com/global-accelerator/"
+      },
+      {
+        "name": "Elastic Load Balancing",
+        "description": "Distribute incoming traffic",
+        "url": "https://aws.amazon.com/elasticloadbalancing/"
+      },
+      {
+        "name": "AWS App Mesh",
+        "description": "Monitor and control microservices",
+        "url": "https://aws.amazon.com/app-mesh/"
+      },
+      {
+        "name": "AWS Cloud Map",
+        "description": "Service discovery for cloud resources",
+        "url": "https://aws.amazon.com/cloud-map/"
+      },
+      {
+        "name": "AWS PrivateLink",
+        "description": "Private connectivity to services",
+        "url": "https://aws.amazon.com/privatelink/"
+      },
+      {
+        "name": "AWS Transit Gateway",
+        "description": "Connect VPCs and on-premises networks",
+        "url": "https://aws.amazon.com/transit-gateway/"
+      },
+      {
+        "name": "AWS VPN",
+        "description": "Secure private tunnel",
+        "url": "https://aws.amazon.com/vpn/"
+      },
+      {
+        "name": "AWS Client VPN",
+        "description": "Managed VPN for remote users",
+        "url": "https://aws.amazon.com/vpn/client-vpn/"
+      },
+      {
+        "name": "AWS Site-to-Site VPN",
+        "description": "Connect networks to AWS",
+        "url": "https://aws.amazon.com/vpn/site-to-site-vpn/"
+      },
+      {
+        "name": "AWS Cloud WAN",
+        "description": "Build and manage global wide area networks",
+        "url": "https://aws.amazon.com/cloud-wan/"
+      },
+      {
+        "name": "AWS Verified Access",
+        "description": "Secure access without VPN",
+        "url": "https://aws.amazon.com/verified-access/"
+      }
+    ],
+    "Quantum_Technologies": [
+      {
+        "name": "Amazon Braket",
+        "description": "Quantum computing service",
+        "url": "https://aws.amazon.com/braket/"
+      }
+    ],
+    "Robotics": [
+      {
+        "name": "AWS RoboMaker",
+        "description": "Develop, test, and deploy robotics applications",
+        "url": "https://aws.amazon.com/robomaker/"
+      }
+    ],
+    "Satellite": [
+      {
+        "name": "AWS Ground Station",
+        "description": "Fully managed ground station service",
+        "url": "https://aws.amazon.com/ground-station/"
+      }
+    ],
+    "Security_Identity_Compliance": [
+      {
+        "name": "AWS Identity and Access Management (IAM)",
+        "description": "Securely manage access to AWS services",
+        "url": "https://aws.amazon.com/iam/"
+      },
+      {
+        "name": "AWS IAM Identity Center",
+        "description": "Workforce identity management",
+        "url": "https://aws.amazon.com/iam/identity-center/"
+      },
+      {
+        "name": "Amazon Cognito",
+        "description": "Identity management for apps",
+        "url": "https://aws.amazon.com/cognito/"
+      },
+      {
+        "name": "Amazon GuardDuty",
+        "description": "Managed threat detection",
+        "url": "https://aws.amazon.com/guardduty/"
+      },
+      {
+        "name": "Amazon Inspector",
+        "description": "Automated security assessment",
+        "url": "https://aws.amazon.com/inspector/"
+      },
+      {
+        "name": "Amazon Macie",
+        "description": "Discover and protect sensitive data",
+        "url": "https://aws.amazon.com/macie/"
+      },
+      {
+        "name": "AWS Artifact",
+        "description": "Access compliance reports",
+        "url": "https://aws.amazon.com/artifact/"
+      },
+      {
+        "name": "AWS Audit Manager",
+        "description": "Continuously audit AWS usage",
+        "url": "https://aws.amazon.com/audit-manager/"
+      },
+      {
+        "name": "AWS Certificate Manager",
+        "description": "Provision and manage SSL/TLS certificates",
+        "url": "https://aws.amazon.com/certificate-manager/"
+      },
+      {
+        "name": "AWS CloudHSM",
+        "description": "Hardware-based key storage",
+        "url": "https://aws.amazon.com/cloudhsm/"
+      },
+      {
+        "name": "AWS Directory Service",
+        "description": "Host and manage Active Directory",
+        "url": "https://aws.amazon.com/directoryservice/"
+      },
+      {
+        "name": "AWS Firewall Manager",
+        "description": "Central management of firewall rules",
+        "url": "https://aws.amazon.com/firewall-manager/"
+      },
+      {
+        "name": "AWS Key Management Service (KMS)",
+        "description": "Create and control encryption keys",
+        "url": "https://aws.amazon.com/kms/"
+      },
+      {
+        "name": "AWS Network Firewall",
+        "description": "Network protection for VPC",
+        "url": "https://aws.amazon.com/network-firewall/"
+      },
+      {
+        "name": "AWS Resource Access Manager",
+        "description": "Share AWS resources",
+        "url": "https://aws.amazon.com/ram/"
+      },
+      {
+        "name": "AWS Secrets Manager",
+        "description": "Rotate, manage, and retrieve secrets",
+        "url": "https://aws.amazon.com/secrets-manager/"
+      },
+      {
+        "name": "AWS Security Hub",
+        "description": "Unified security and compliance center",
+        "url": "https://aws.amazon.com/security-hub/"
+      },
+      {
+        "name": "AWS Shield",
+        "description": "DDoS protection",
+        "url": "https://aws.amazon.com/shield/"
+      },
+      {
+        "name": "AWS WAF",
+        "description": "Web application firewall",
+        "url": "https://aws.amazon.com/waf/"
+      },
+      {
+        "name": "AWS Signer",
+        "description": "Code signing service",
+        "url": "https://aws.amazon.com/signer/"
+      },
+      {
+        "name": "AWS Private Certificate Authority",
+        "description": "Create private certificates",
+        "url": "https://aws.amazon.com/private-ca/"
+      },
+      {
+        "name": "AWS Detective",
+        "description": "Investigate security issues",
+        "url": "https://aws.amazon.com/detective/"
+      },
+      {
+        "name": "IAM Access Analyzer",
+        "description": "Analyze resource access",
+        "url": "https://aws.amazon.com/iam/features/analyze-access/"
+      },
+      {
+        "name": "Amazon Verified Permissions",
+        "description": "Fine-grained authorization service",
+        "url": "https://aws.amazon.com/verified-permissions/"
+      },
+      {
+        "name": "AWS Payment Cryptography",
+        "description": "Payment HSM for cryptographic operations",
+        "url": "https://aws.amazon.com/payment-cryptography/"
+      }
+    ],
+    "Storage": [
+      {
+        "name": "Amazon S3",
+        "description": "Scalable object storage",
+        "url": "https://aws.amazon.com/s3/"
+      },
+      {
+        "name": "Amazon S3 Glacier",
+        "description": "Low-cost archive storage",
+        "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
+      },
+      {
+        "name": "Amazon S3 Glacier Deep Archive",
+        "description": "Lowest-cost storage for long-term data",
+        "url": "https://aws.amazon.com/s3/storage-classes/glacier/"
+      },
+      {
+        "name": "Amazon Elastic Block Store (EBS)",
+        "description": "Block storage for EC2",
+        "url": "https://aws.amazon.com/ebs/"
+      },
+      {
+        "name": "Amazon Elastic File System (EFS)",
+        "description": "Fully managed file system",
+        "url": "https://aws.amazon.com/efs/"
+      },
+      {
+        "name": "Amazon FSx",
+        "description": "Fully managed file storage",
+        "url": "https://aws.amazon.com/fsx/"
+      },
+      {
+        "name": "Amazon FSx for Lustre",
+        "description": "High-performance file system",
+        "url": "https://aws.amazon.com/fsx/lustre/"
+      },
+      {
+        "name": "Amazon FSx for NetApp ONTAP",
+        "description": "NetApp file system",
+        "url": "https://aws.amazon.com/fsx/netapp-ontap/"
+      },
+      {
+        "name": "Amazon FSx for OpenZFS",
+        "description": "OpenZFS file system",
+        "url": "https://aws.amazon.com/fsx/openzfs/"
+      },
+      {
+        "name": "Amazon FSx for Windows File Server",
+        "description": "Windows file system",
+        "url": "https://aws.amazon.com/fsx/windows/"
+      },
+      {
+        "name": "AWS Storage Gateway",
+        "description": "Hybrid cloud storage",
+        "url": "https://aws.amazon.com/storagegateway/"
+      },
+      {
+        "name": "AWS Backup",
+        "description": "Centralized backup service",
+        "url": "https://aws.amazon.com/backup/"
+      },
+      {
+        "name": "AWS Elastic Disaster Recovery",
+        "description": "Scalable disaster recovery",
+        "url": "https://aws.amazon.com/disaster-recovery/"
+      },
+      {
+        "name": "AWS Snow Family",
+        "description": "Physical edge computing and storage",
+        "url": "https://aws.amazon.com/snow/"
+      },
+      {
+        "name": "Amazon File Cache",
+        "description": "High-speed cache for datasets",
+        "url": "https://aws.amazon.com/filecache/"
+      }
+    ],
+    "VR_AR": [
+      {
+        "name": "Amazon Sumerian",
+        "description": "Build VR and AR applications",
+        "url": "https://aws.amazon.com/sumerian/"
+      }
+    ]
+  },
+  "additional_services": [
+    {
+      "name": "AWS Marketplace",
+      "description": "Digital catalog of third-party software",
+      "url": "https://aws.amazon.com/marketplace/"
+    },
+    {
+      "name": "AWS Support",
+      "description": "Technical support and account assistance",
+      "url": "https://aws.amazon.com/premiumsupport/"
+    },
+    {
+      "name": "AWS Training and Certification",
+      "description": "Build AWS skills and validate expertise",
+      "url": "https://aws.amazon.com/training/"
+    },
+    {
+      "name": "AWS Partner Network",
+      "description": "Global community of AWS partners",
+      "url": "https://aws.amazon.com/partners/"
+    },
+    {
+      "name": "AWS re:Post",
+      "description": "Community-driven Q&A service",
+      "url": "https://repost.aws/"
+    },
+    {
+      "name": "AWS IQ",
+      "description": "Get help from AWS Certified experts",
+      "url": "https://aws.amazon.com/iq/"
+    },
+    {
+      "name": "AWS Activate",
+      "description": "Startup program",
+      "url": "https://aws.amazon.com/activate/"
+    },
+    {
+      "name": "AWS Professional Services",
+      "description": "Expert help to achieve outcomes",
+      "url": "https://aws.amazon.com/professional-services/"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 50px;
+}
+
+.result {
+    margin: 30px 0;
+}
+
+fieldset {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+fieldset div {
+    text-align: left;
+}
+
+fieldset.correct {
+    animation: correctFlash 2s ease-in-out;
+}
+
+fieldset.incorrect {
+    animation: incorrectFlash 2s ease-in-out;
+}
+
+@keyframes correctFlash {
+    0% {
+        background-color: transparent;
+    }
+    10% {
+        background-color: rgba(0, 255, 0, 0.25);
+    }
+    50% {
+        background-color: rgba(0, 255, 0, 0.25);
+    }
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes incorrectFlash {
+    0% {
+        background-color: transparent;
+    }
+    10% {
+        background-color: rgba(255, 0, 0, 0.25);
+    }
+    50% {
+        background-color: rgba(255, 0, 0, 0.25);
+    }
+    100% {
+        background-color: transparent;
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "Info": {
+        "GeneratedAt": "2021-07-21 22:00:41.305277+00:00",
+        "OriginalFileUrl": "https://raw.githubusercontent.com/groorj/aws-services-list/main/aws_services.json"
+    },
+    "Services": {
+        "Analytics": {
+            "": {
+                "Description": "AWS Lake Formation",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/lake-formation/?c=1&pt=12"
+            }
+        },
+        "Application Integration": {
+            "": {
+                "Description": "AWS AppSync",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/appsync/?c=2&pt=6"
+            }
+        },
+        "Blockchain": {
+            "": {
+                "Description": "Amazon Quantum Ledger Database (QLDB)",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/qldb/?c=5&pt=2"
+            }
+        },
+        "Business Applications": {
+            "": {
+                "Description": "Amazon WorkMail",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/workmail/?c=6&pt=4"
+            }
+        },
+        "Cloud Financial Management": {
+            "": {
+                "Description": "Savings Plans",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/savingsplans/?c=4&pt=5"
+            }
+        },
+        "Compute": {
+            "": {
+                "Description": "VMware Cloud on AWS",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/vmware/?c=7&pt=14"
+            }
+        },
+        "Containers": {
+            "": {
+                "Description": "Red Hat OpenShift Service on AWS",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/rosa/?c=7a&pt=5"
+            }
+        },
+        "Customer Engagement": {
+            "": {
+                "Description": "Amazon Simple Email Service (SES)",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/ses/?c=8&pt=3"
+            }
+        },
+        "Database": {
+            "": {
+                "Description": "AWS Glue",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/glue/?c=1&pt=11"
+            }
+        },
+        "Developer Tools": {
+            "": {
+                "Description": "AWS X-Ray",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/xray/?c=10&pt=12"
+            }
+        },
+        "End User Computing": {
+            "": {
+                "Description": "Amazon WorkSpaces",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/workspaces/?c=11&pt=4"
+            }
+        },
+        "Front-End Web & Mobile": {
+            "": {
+                "Description": "AWS Device Farm",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/device-farm/?c=18&pt=5"
+            }
+        },
+        "Game Tech": {
+            "": {
+                "Description": "Amazon Lumberyard",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/lumberyard/?c=12&pt=2"
+            }
+        },
+        "Internet of Things": {
+            "": {
+                "Description": "FreeRTOS",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/freertos/?c=13&pt=13"
+            }
+        },
+        "Machine Learning": {
+            "": {
+                "Description": "TensorFlow on AWS",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/tensorflow/?c=14&pt=24"
+            }
+        },
+        "Management & Governance": {
+            "": {
+                "Description": "AWS Well-Architected Tool",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/well-architected-tool/?c=15&pt=20"
+            }
+        },
+        "Media Services": {
+            "": {
+                "Description": "AWS Elemental Appliances & Software",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/elemental-appliances-software/?c=16&pt=9"
+            }
+        },
+        "Migration & Transfer": {
+            "": {
+                "Description": "Migration Evaluator (formerly TSO Logic)",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/migration-evaluator/?c=17&pt=9"
+            }
+        },
+        "Networking & Content Delivery": {
+            "": {
+                "Description": "Elastic Load Balancing",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/elasticloadbalancing/?c=7&pt=11"
+            }
+        },
+        "Quantum Technologies": {
+            "": {
+                "Description": "Amazon Braket",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/braket/"
+            }
+        },
+        "Robotics": {
+            "": {
+                "Description": "AWS RoboMaker",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/robomaker/?c=20&pt=1"
+            }
+        },
+        "Satellite": {
+            "": {
+                "Description": "AWS Ground Station",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/ground-station/?c=21&pt=1"
+            }
+        },
+        "Security, Identity & Compliance": {
+            "": {
+                "Description": "AWS WAF",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/waf/?c=22&pt=18"
+            }
+        },
+        "Serverless": {
+            "": {
+                "Description": "AWS Step Functions",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/step-functions/?c=23&pt=10"
+            }
+        },
+        "Storage": {
+            "": {
+                "Description": "CloudEndure Disaster Recovery",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/cloudendure-disaster-recovery/?c=24&pt=10"
+            }
+        },
+        "VR & AR": {
+            "": {
+                "Description": "Amazon Sumerian",
+                "FullName": "",
+                "Url": "https://aws.amazon.com/sumerian/?c=25&pt=1"
+            }
+        }
+    }
+}
